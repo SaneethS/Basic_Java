@@ -7,11 +7,15 @@ public class BasicJavaMain {
 		System.out.println("Welcome to basic java main");
 		System.out.println("----------------------------------------");
 		
-		System.out.println("Flip Coin");
-		FlipCoin flipCoin = new FlipCoin();
-		flipCoin.flipCoinMethod();
-		System.out.println("----------------------------------------");
+		//only one can program can run at a time so comment others while running.
+		//Eg : while running flipcoin comment leapyear
 		
+//		FlipCoin flipCoin = new FlipCoin();
+//		flipCoin.flipCoinMethod();
+		
+		
+		LeapYear leapYear = new LeapYear();
+		leapYear.leapYearMethod();
 		
 	}
 
