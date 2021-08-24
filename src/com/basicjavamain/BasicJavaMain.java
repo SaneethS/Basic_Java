@@ -23,8 +23,10 @@ public class BasicJavaMain {
 //		QuotientRemainder.quotientRemMethod();
 //	
 //		Swap.swapMethod();
+//		
+//		EvenOdd.evenOdd();
 		
-		EvenOdd.evenOdd();
+		VowelConsonent.vowelCons();
 		
 	}
 
