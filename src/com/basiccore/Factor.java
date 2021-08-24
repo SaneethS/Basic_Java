@@ -10,7 +10,7 @@ public class Factor {
 		sc.close();
 		
 		if(n<0) {
-			System.out.println("Enter n greater than 0");
+			System.out.println("Enter n value greater than 0");
 			System.exit(0);
 		}
 		
