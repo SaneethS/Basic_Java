@@ -10,8 +10,8 @@ public class LeapYear {
 		int year = sc.nextInt();
 		sc.close();
 		
-		if(year<1000) {
-			System.out.println("enter the four digit number");
+		if(year<1000 && year>9999) {
+			System.out.println("Enter the four digit number");
 			System.exit(0);
 		}
 		
