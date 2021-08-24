@@ -1,5 +1,10 @@
 package com.basicjavamain;
 import com.basiccore.*;
+import com.functionalcode.Distance;
+import com.functionalcode.Quadratic;
+import com.functionalcode.SumOfThree;
+import com.functionalcode.TwoDArray;
+import com.functionalcode.WindChill;
 
 public class BasicJavaMain {
 
@@ -10,26 +15,35 @@ public class BasicJavaMain {
 		//only one can program can run at a time so comment others while running.
 		//Eg : while running flipcoin comment leapyear and other
 		
-		FlipCoin.flipCoinMethod();
+//		FlipCoin.flipCoinMethod();
+//	
+//		LeapYear.leapYearMethod();
+//		
+//		PowerOf2.powerMethod(args);
+//		
+//		HarmonicNumber.harmonicNumMethod();
+//		
+//		Factor.factorMethod();
+//		
+//		QuotientRemainder.quotientRemMethod();
+//	
+//		Swap.swapMethod();
+//		
+//		EvenOdd.evenOdd();
+//		
+//		VowelConsonent.vowelCons();
+//		
+//		LargestNumber.largestNum();
+//		
+//		TwoDArray.twoDArray();
+//		
+//		SumOfThree.sumOfThree();
+//		
+//		Distance.distance(args);
+//		
+//		Quadratic.quadratic();
 		
-		LeapYear.leapYearMethod();
-		
-		PowerOf2.powerMethod(args);
-		
-		HarmonicNumber.harmonicNumMethod();
-		
-		Factor.factorMethod();
-		
-		QuotientRemainder.quotientRemMethod();
-	
-		Swap.swapMethod();
-		
-		EvenOdd.evenOdd();
-		
-		VowelConsonent.vowelCons();
-		
-		LargestNumber.largestNum();
-		
+		WindChill.windChill(args);
 	}
 
 }
