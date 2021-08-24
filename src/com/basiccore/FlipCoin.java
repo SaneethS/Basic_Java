@@ -11,6 +11,10 @@ public class FlipCoin {
 		int n=sc.nextInt();
 		sc.close();
 		
+		if(n<0) {
+			System.out.println("Enter n greater than 0");
+		}
+		
 		Random random = new Random();
 		
 		for(int i=0;i<n;i++) {

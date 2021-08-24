@@ -17,8 +17,10 @@ public class BasicJavaMain {
 //		PowerOf2.powerMethod(args);
 //		
 //		HarmonicNumber.harmonicNumMethod();
+//		
+//		Factor.factorMethod();
 		
-		Factor.factorMethod();
+		QuotientRemainder.quotientRemMethod();
 		
 	}
 
