@@ -1,5 +1,6 @@
 package com.basicjavamain;
 import com.basiccore.*;
+import com.functionalcode.Distance;
 import com.functionalcode.SumOfThree;
 import com.functionalcode.TwoDArray;
 
@@ -13,7 +14,7 @@ public class BasicJavaMain {
 		//Eg : while running flipcoin comment leapyear and other
 		
 //		FlipCoin.flipCoinMethod();
-//		
+//	
 //		LeapYear.leapYearMethod();
 //		
 //		PowerOf2.powerMethod(args);
@@ -33,9 +34,10 @@ public class BasicJavaMain {
 //		LargestNumber.largestNum();
 //		
 //		TwoDArray.twoDArray();
+//		
+//		SumOfThree.sumOfThree();
 		
-		SumOfThree.sumOfThree();
-		
+		Distance.distance(args);
 	}
 
 }
