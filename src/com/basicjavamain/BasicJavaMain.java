@@ -8,15 +8,17 @@ public class BasicJavaMain {
 		System.out.println("----------------------------------------");
 		
 		//only one can program can run at a time so comment others while running.
-		//Eg : while running flipcoin comment leapyear
+		//Eg : while running flipcoin comment leapyear and other
 		
 //		FlipCoin.flipCoinMethod();
 //		
 //		LeapYear.leapYearMethod();
 //		
 //		PowerOf2.powerMethod(args);
+//		
+//		HarmonicNumber.harmonicNumMethod();
 		
-		HarmonicNumber.harmonicNumMethod();
+		Factor.factorMethod();
 		
 	}
 
