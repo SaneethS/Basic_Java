@@ -10,12 +10,12 @@ public class BasicJavaMain {
 		//only one can program can run at a time so comment others while running.
 		//Eg : while running flipcoin comment leapyear
 		
-//		FlipCoin flipCoin = new FlipCoin();
-//		flipCoin.flipCoinMethod();
+		FlipCoin.flipCoinMethod();
 		
 		
-		LeapYear leapYear = new LeapYear();
-		leapYear.leapYearMethod();
+//		LeapYear.leapYearMethod();
+		
+//		PowerOf2.powerMethod(args);
 		
 	}
 
