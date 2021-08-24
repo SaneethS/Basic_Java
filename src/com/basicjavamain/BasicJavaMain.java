@@ -1,6 +1,7 @@
 package com.basicjavamain;
 import com.basiccore.*;
 import com.functionalcode.Distance;
+import com.functionalcode.Quadratic;
 import com.functionalcode.SumOfThree;
 import com.functionalcode.TwoDArray;
 
@@ -36,8 +37,10 @@ public class BasicJavaMain {
 //		TwoDArray.twoDArray();
 //		
 //		SumOfThree.sumOfThree();
+//		
+//		Distance.distance(args);
 		
-		Distance.distance(args);
+		Quadratic.quadratic();
 	}
 
 }
