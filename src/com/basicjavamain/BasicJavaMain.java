@@ -1,5 +1,6 @@
 package com.basicjavamain;
 import com.basiccore.*;
+import com.functionalcode.TwoDArray;
 
 public class BasicJavaMain {
 
@@ -29,6 +30,8 @@ public class BasicJavaMain {
 		VowelConsonent.vowelCons();
 		
 		LargestNumber.largestNum();
+		
+		TwoDArray.twoDArray();
 		
 	}
 
