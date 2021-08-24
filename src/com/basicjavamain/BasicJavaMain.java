@@ -10,23 +10,25 @@ public class BasicJavaMain {
 		//only one can program can run at a time so comment others while running.
 		//Eg : while running flipcoin comment leapyear and other
 		
-//		FlipCoin.flipCoinMethod();
-//		
-//		LeapYear.leapYearMethod();
-//		
-//		PowerOf2.powerMethod(args);
-//		
-//		HarmonicNumber.harmonicNumMethod();
-//		
-//		Factor.factorMethod();
-//		
-//		QuotientRemainder.quotientRemMethod();
-//	
-//		Swap.swapMethod();
-//		
-//		EvenOdd.evenOdd();
+		FlipCoin.flipCoinMethod();
+		
+		LeapYear.leapYearMethod();
+		
+		PowerOf2.powerMethod(args);
+		
+		HarmonicNumber.harmonicNumMethod();
+		
+		Factor.factorMethod();
+		
+		QuotientRemainder.quotientRemMethod();
+	
+		Swap.swapMethod();
+		
+		EvenOdd.evenOdd();
 		
 		VowelConsonent.vowelCons();
+		
+		LargestNumber.largestNum();
 		
 	}
 
