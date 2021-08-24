@@ -21,6 +21,8 @@ public class BasicJavaMain {
 		Factor.factorMethod();
 		
 		QuotientRemainder.quotientRemMethod();
+	
+		Swap.swapMethod();
 		
 	}
 
