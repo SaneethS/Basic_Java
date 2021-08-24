@@ -4,6 +4,7 @@ import com.functionalcode.Distance;
 import com.functionalcode.Quadratic;
 import com.functionalcode.SumOfThree;
 import com.functionalcode.TwoDArray;
+import com.functionalcode.WindChill;
 
 public class BasicJavaMain {
 
@@ -39,8 +40,10 @@ public class BasicJavaMain {
 //		SumOfThree.sumOfThree();
 //		
 //		Distance.distance(args);
+//		
+//		Quadratic.quadratic();
 		
-		Quadratic.quadratic();
+		WindChill.windChill(args);
 	}
 
 }
