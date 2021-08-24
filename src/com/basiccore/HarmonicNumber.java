@@ -9,6 +9,11 @@ public class HarmonicNumber {
 		int n = sc.nextInt();
 		sc.close();
 		
+		if(n<0) {
+			System.out.println("Enter n greater than 0");
+			System.exit(0);
+		}
+		
 		float sum = 0 ;
 		
 		for(float i=1;i<=n;i++) {

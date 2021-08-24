@@ -9,6 +9,11 @@ public class Factor {
 		int n = sc.nextInt();
 		sc.close();
 		
+		if(n<0) {
+			System.out.println("Enter n greater than 0");
+			System.exit(0);
+		}
+		
 		System.out.println("Prime factors of "+n);
 		
 		for(int i=2;i<=n;i++) {

@@ -12,13 +12,13 @@ public class LeapYear {
 		
 		if(year<1000) {
 			System.out.println("enter the four digit number");
-		}else {
-		
-			if((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
-				System.out.println(year+" is a leap year");
-			else
-				System.out.println(year+" is not leap year");
+			System.exit(0);
 		}
+		
+		if((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
+			System.out.println(year+" is a leap year");
+		else
+			System.out.println(year+" is not leap year");
 		
 	}
 

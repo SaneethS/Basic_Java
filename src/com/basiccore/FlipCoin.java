@@ -13,6 +13,7 @@ public class FlipCoin {
 		
 		if(n<0) {
 			System.out.println("Enter n greater than 0");
+			System.exit(0);
 		}
 		
 		Random random = new Random();
