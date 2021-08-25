@@ -31,7 +31,7 @@ public class BasicJavaMain {
 //		
 //		EvenOdd.evenOdd();
 //		
-//		VowelConsonent.vowelCons();
+		VowelConsonent.vowelCons();
 //		
 //		LargestNumber.largestNum();
 //		
