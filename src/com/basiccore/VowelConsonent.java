@@ -11,8 +11,8 @@ public class VowelConsonent {
 		
 		char[] array = {'a','e','i','o','u','A','E','I','O','U'};
 		
-		for(int i=0;i<array.length;i++) {
-			if(array[i] == alphabet) {
+		for (char c : array) {
+			if(c == alphabet) {
 				System.out.println(alphabet+" is an Vowel");
 				System.exit(0);
 			}
